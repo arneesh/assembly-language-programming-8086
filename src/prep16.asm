@@ -1,0 +1,24 @@
+
+; CALCULATE NUMBER OF EVEN NUMBER AND ODD NUMBERS IN AN ARRAY
+
+data segment
+    
+    
+    
+ends
+
+stack segment
+    dw   128  dup(0)
+ends
+
+code segment
+start:
+
+    ; add your code here
+
+mov ax, 4c00h
+int 21h  
+
+ends
+
+end start

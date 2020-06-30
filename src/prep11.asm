@@ -1,0 +1,21 @@
+; count the number of 0's in 
+
+data segment
+
+ends
+
+stack segment
+    dw   128  dup(0)
+ends
+
+code segment
+start:
+
+    ; add your code here
+
+mov ax, 4c00h
+int 21h  
+
+ends
+
+end start
